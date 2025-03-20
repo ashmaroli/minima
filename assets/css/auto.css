@@ -375,6 +375,12 @@ code {
   border-radius: 3px;
   background-color: var(--minima-code-background-color);
 }
+@media screen and (max-width: 600px) {
+  pre,
+  code {
+    font-family: monospace;
+  }
+}
 
 code {
   padding: 1px 5px;

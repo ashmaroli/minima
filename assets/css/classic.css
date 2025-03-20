@@ -236,6 +236,12 @@ code {
   border-radius: 3px;
   background-color: #f6f8fa;
 }
+@media screen and (max-width: 600px) {
+  pre,
+  code {
+    font-family: monospace;
+  }
+}
 
 code {
   padding: 1px 5px;
