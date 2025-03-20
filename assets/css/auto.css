@@ -390,7 +390,8 @@ code {
 pre {
   padding: 8px 12px;
   font-size: 15px;
-  line-height: 1.275;
+  line-height: 1.4;
+  color: var(--minima-heading-color);
   overflow-x: auto;
 }
 pre > code {
