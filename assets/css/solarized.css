@@ -365,12 +365,12 @@ code {
 
 code {
   padding: 1px 5px;
-  font-size: 0.9375em;
+  font-size: 14px;
 }
 
 pre {
   padding: 8px 12px;
-  font-size: 0.975em;
+  font-size: 15px;
   line-height: 1.275;
   overflow-x: auto;
 }
