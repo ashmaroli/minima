@@ -335,7 +335,6 @@ blockquote i, blockquote em {
 pre,
 code {
   font-family: "Menlo", "Inconsolata", "Consolas", "Roboto Mono", "Ubuntu Mono", "Liberation Mono", "Courier New", monospace;
-  font-size: 0.9375em;
   border: 1px solid #2c4d56;
   border-radius: 3px;
   background-color: #073642;
@@ -343,16 +342,21 @@ code {
 
 code {
   padding: 1px 5px;
+  font-size: 0.9375em;
 }
 
 pre {
   padding: 8px 12px;
+  font-size: 0.975em;
+  line-height: 1.275;
   overflow-x: auto;
 }
 pre > code {
-  border: 0;
+  display: inline-block;
+  width: 100%;
   padding-right: 0;
   padding-left: 0;
+  border: 0;
 }
 
 .highlight {
