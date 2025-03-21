@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/minima/feed.xml" rel="self" type="application/atom+xml" /><link href="/minima/" rel="alternate" type="text/html" /><updated>2025-03-21T13:46:54+00:00</updated><id>/minima/feed.xml</id><title type="html">Minima Demo Site</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/minima/feed.xml" rel="self" type="application/atom+xml" /><link href="/minima/" rel="alternate" type="text/html" /><updated>2025-03-21T14:35:16+00:00</updated><id>/minima/feed.xml</id><title type="html">Minima Demo Site</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </subtitle><author><name>GitHub User</name><email>your-email@domain.com</email></author><entry><title type="html">Codeblocks</title><link href="/minima/2016/05/20/codeblocks.html" rel="alternate" type="text/html" title="Codeblocks" /><published>2016-05-20T00:00:00+00:00</published><updated>2016-05-20T00:00:00+00:00</updated><id>/minima/2016/05/20/codeblocks</id><content type="html" xml:base="/minima/2016/05/20/codeblocks.html"><![CDATA[<p>This post demos <code class="language-plaintext highlighter-rouge">code</code> blocks.</p>
 
 <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cm">=begin
@@ -12,8 +12,17 @@
 + This line has been inserted
 </span><span class="p">This line has not been changed
 </span></code></pre></div></div>
-<div class="language-sass highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">@import</span> <span class="s">base</span>
-  <span class="nt">layout</span><span class="o">;</span>
+<div class="language-sass highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">@import</span> <span class="s">"base";</span>
+
+<span class="nc">.card</span> <span class="err">{</span>
+  <span class="nl">display</span><span class="p">:</span> <span class="n">inline-block</span><span class="err">;</span>
+  <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span><span class="err">;</span>
+  <span class="nl">padding</span><span class="p">:</span> <span class="m">0</span><span class="err">;</span>
+
+  <span class="k">&amp;</span><span class="nd">:hover</span> <span class="err">{</span>
+    <span class="nl">color</span><span class="p">:</span> <span class="mh">#ab45ef</span>
+  <span class="err">}</span>
+<span class="err">}</span>
 </code></pre></div></div>
 <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="mi">21</span> <span class="o">+</span> <span class="mi">54</span> <span class="o">=</span> <span class="mi">0</span>
 <span class="n">foo</span> <span class="o">||=</span> <span class="n">bar</span>
@@ -54,6 +63,24 @@
 
 <div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">{%</span><span class="w"> </span><span class="nt">assign</span><span class="w"> </span><span class="nv">foo</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">foo</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">bar</span><span class="p">:</span><span class="w"> </span><span class="s1">'baz'</span><span class="w"> </span><span class="cp">%}</span>
 <span class="cp">{{</span><span class="w"> </span><span class="nv">foo</span><span class="w"> </span><span class="cp">}}</span>
+</code></pre></div></div>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">author</span><span class="pi">:</span>
+  <span class="na">admin</span><span class="pi">:</span> <span class="kc">true</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">John Doe</span>
+  <span class="na">email</span><span class="pi">:</span> <span class="s">johndoe@example.com</span>
+  <span class="na">id</span><span class="pi">:</span> <span class="m">75636474</span>
+</code></pre></div></div>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
+  <span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"utf-8"</span> <span class="nt">/&gt;</span>
+    <span class="nt">&lt;title&gt;</span>Hello World<span class="nt">&lt;/title&gt;</span>
+  <span class="nt">&lt;/head&gt;</span>
+  <span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;p&gt;</span>Hello, World!<span class="nt">&lt;/p&gt;</span>
+  <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
 </code></pre></div></div>
 
 <p>Check out the <a href="http://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name>GitHub User</name><email>your-email@domain.com</email></author><summary type="html"><![CDATA[This post demos code blocks.]]></summary></entry><entry><title type="html">My Example Post</title><link href="/minima/2016/05/20/my-example-post.html" rel="alternate" type="text/html" title="My Example Post" /><published>2016-05-20T00:00:00+00:00</published><updated>2016-05-20T00:00:00+00:00</updated><id>/minima/2016/05/20/my-example-post</id><content type="html" xml:base="/minima/2016/05/20/my-example-post.html"><![CDATA[<p>Eos eu docendi tractatos sapientem, brute option menandri in vix, quando vivendo accommodare te ius. Nec melius fastidii constituam id, viderer theophrastus ad sit, hinc semper periculis cum id. Noluisse postulant assentior est in, no choro sadipscing repudiandae vix. Vis in euismod delenit dignissim. Ex quod nostrum sit, suas decore animal id ius, nobis solet detracto quo te.</p>
