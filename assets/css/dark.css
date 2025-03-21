@@ -4,7 +4,7 @@
   background-color: #e3d2d2;
 }
 .highlight .cs, .highlight .cp, .highlight .cm, .highlight .c1, .highlight .c {
-  color: #545454;
+  color: #8a8a8a;
 }
 .highlight .ge, .highlight .cs {
   font-style: italic;
@@ -70,7 +70,7 @@
   color: #9d99e6;
 }
 .highlight .nt {
-  color: #008080;
+  color: #ea57c5;
 }
 .highlight .o {
   color: #bcd890;
@@ -112,7 +112,7 @@ dl, dd, ol, ul, figure {
  */
 body {
   font: 400 16px/1.5 -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", "Apple Color Emoji", Roboto, Helvetica, Arial, sans-serif;
-  color: #959595;
+  color: rgb(148.75, 148.75, 148.75);
   background-color: #181818;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
@@ -198,7 +198,7 @@ a:visited {
   color: #79b8ff;
 }
 a:hover {
-  color: #959595;
+  color: rgb(148.75, 148.75, 148.75);
   text-decoration: underline #999999;
   text-underline-offset: 3px;
 }
@@ -214,7 +214,7 @@ a:hover {
  */
 blockquote {
   color: #999999;
-  border-left: 4px solid #363636;
+  border-left: 4px solid rgb(53.55, 53.55, 53.55);
   padding-left: 15px;
   font-size: 1.05rem;
   font-style: italic;
@@ -232,7 +232,7 @@ blockquote i, blockquote em {
 pre,
 code {
   font-family: "Menlo", "Inconsolata", "Consolas", "Roboto Mono", "Ubuntu Mono", "Liberation Mono", "Courier New", monospace;
-  border: 1px solid #363636;
+  border: 1px solid rgb(53.55, 53.55, 53.55);
   border-radius: 3px;
   background-color: #222222;
 }
@@ -322,22 +322,22 @@ table {
   margin-bottom: 30px;
   width: 100%;
   text-align: left;
-  color: #959595;
+  color: rgb(148.75, 148.75, 148.75);
   border-collapse: collapse;
-  border: 1px solid #363636;
+  border: 1px solid rgb(53.55, 53.55, 53.55);
 }
 table tr:nth-child(even) {
-  background-color: #222222;
+  background-color: rgb(34.2, 34.2, 34.2);
 }
 table th, table td {
   padding: 10px 15px;
 }
 table th {
-  background-color: #323232;
-  border: 1px solid #4e4e4e;
+  background-color: rgb(49.5, 49.5, 49.5);
+  border: 1px solid rgb(77.55, 77.55, 77.55);
 }
 table td {
-  border: 1px solid #363636;
+  border: 1px solid rgb(53.55, 53.55, 53.55);
 }
 @media screen and (max-width: 800px) {
   table {
@@ -358,7 +358,7 @@ table td {
   line-height: 54px;
   background-color: #181818;
   border-top: 5px solid #999999;
-  border-bottom: 1px solid #363636;
+  border-bottom: 1px solid rgb(53.55, 53.55, 53.55);
 }
 
 .site-title {
@@ -374,7 +374,7 @@ table td {
   }
 }
 .site-title, .site-title:visited {
-  color: #a6a6a6;
+  color: rgb(165.75, 165.75, 165.75);
 }
 
 .site-nav {
@@ -382,7 +382,7 @@ table td {
   top: 9px;
   right: 18px;
   background-color: #181818;
-  border: 1px solid #363636;
+  border: 1px solid rgb(53.55, 53.55, 53.55);
   border-radius: 5px;
   text-align: right;
 }
@@ -429,7 +429,7 @@ table td {
   padding-bottom: 5px;
   transition: width 1s;
   overflow: auto;
-  border-left-color: #363636;
+  border-left-color: rgb(53.55, 53.55, 53.55);
 }
 .site-nav #nav-trigger:checked ~ .drawer-container .drawer {
   padding: 15px;
@@ -439,7 +439,7 @@ table td {
 .site-nav .nav-item {
   display: block;
   padding: 5px 0;
-  color: #959595;
+  color: rgb(148.75, 148.75, 148.75);
   line-height: 1.5;
 }
 @media screen and (min-width: 600px) {
@@ -472,7 +472,7 @@ table td {
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid #363636;
+  border-top: 1px solid rgb(53.55, 53.55, 53.55);
   padding: 30px 0;
 }
 
@@ -504,22 +504,22 @@ table td {
 
 .footer-col-1,
 .footer-col-2 {
-  width: calc(50% - (30px / 2));
+  width: calc(50% - 30px / 2);
 }
 
 .footer-col-3 {
-  width: calc(100% - (30px / 2));
+  width: calc(100% - 30px / 2);
 }
 
 @media screen and (min-width: 800px) {
   .footer-col-1 {
-    width: calc(35% - (30px / 2));
+    width: calc(35% - 30px / 2);
   }
   .footer-col-2 {
-    width: calc(20% - (30px / 2));
+    width: calc(20% - 30px / 2);
   }
   .footer-col-3 {
-    width: calc(45% - (30px / 2));
+    width: calc(45% - 30px / 2);
   }
 }
 @media screen and (min-width: 600px) {
@@ -527,7 +527,7 @@ table td {
     display: flex;
   }
   .footer-col {
-    width: calc(100% - (30px / 2));
+    width: calc(100% - 30px / 2);
     padding: 0 15px;
   }
   .footer-col:first-child {
@@ -582,7 +582,7 @@ table td {
   margin-bottom: 30px;
   padding-bottom: 18px;
   text-align: center;
-  border-bottom: 1px solid #363636;
+  border-bottom: 1px solid rgb(53.55, 53.55, 53.55);
 }
 
 .post-meta .bullet-divider {
@@ -666,10 +666,10 @@ table td {
 .social-media-list li a, .pagination li a {
   display: block;
   padding: 10px 12px;
-  border: 1px solid #363636;
+  border: 1px solid rgb(53.55, 53.55, 53.55);
 }
 .social-media-list li a:hover, .pagination li a:hover {
-  border-color: #a6a6a6;
+  border-color: rgb(165.75, 165.75, 165.75);
 }
 
 /**
@@ -689,7 +689,7 @@ table td {
   border: 1px solid transparent;
 }
 .pagination li div.pager-edge {
-  color: #363636;
+  color: rgb(53.55, 53.55, 53.55);
   border: 1px dashed;
 }
 
@@ -698,7 +698,7 @@ table td {
  */
 @media screen and (min-width: 800px) {
   .one-half {
-    width: calc(50% - (30px / 2));
+    width: calc(50% - 30px / 2);
   }
 }
 .site-footer {

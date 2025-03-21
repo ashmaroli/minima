@@ -2,22 +2,22 @@
 :root {
   --minima-brand-color: #818181;
   --minima-brand-color-light: #e7e7e7;
-  --minima-brand-color-dark: #414141;
-  --minima-site-title-color: #414141;
+  --minima-brand-color-dark: rgb(65.25, 65.25, 65.25);
+  --minima-site-title-color: rgb(65.25, 65.25, 65.25);
   --minima-heading-color: #111111;
-  --minima-text-color: #414141;
+  --minima-text-color: rgb(65.25, 65.25, 65.25);
   --minima-background-color: #fdfdfd;
   --minima-code-background-color: #f6f8fa;
   --minima-link-base-color: #2a7ae2;
-  --minima-link-visited-color: #1756a9;
-  --minima-link-hover-color: #414141;
+  --minima-link-visited-color: rgb(22.9483471074, 86.2541322314, 168.5516528926);
+  --minima-link-hover-color: rgb(65.25, 65.25, 65.25);
   --minima-border-color-01: #e7e7e7;
-  --minima-border-color-02: #dadada;
-  --minima-border-color-03: #414141;
-  --minima-table-text-color: #3f3f3f;
-  --minima-table-zebra-color: #f6f6f6;
-  --minima-table-header-bg-color: #efefef;
-  --minima-table-header-border: #dfdfdf;
+  --minima-border-color-02: rgb(218.25, 218.25, 218.25);
+  --minima-border-color-03: rgb(65.25, 65.25, 65.25);
+  --minima-table-text-color: rgb(62.9, 62.9, 62.9);
+  --minima-table-zebra-color: rgb(246.3, 246.3, 246.3);
+  --minima-table-header-bg-color: rgb(238.65, 238.65, 238.65);
+  --minima-table-header-border: rgb(223.35, 223.35, 223.35);
   --minima-table-border-color: #e7e7e7;
 }
 
@@ -118,31 +118,31 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --minima-brand-color: #999999;
-    --minima-brand-color-light: #a6a6a6;
-    --minima-brand-color-dark: #363636;
-    --minima-site-title-color: #a6a6a6;
+    --minima-brand-color-light: rgb(165.75, 165.75, 165.75);
+    --minima-brand-color-dark: rgb(53.55, 53.55, 53.55);
+    --minima-site-title-color: rgb(165.75, 165.75, 165.75);
     --minima-heading-color: #bbbbbb;
-    --minima-text-color: #959595;
+    --minima-text-color: rgb(148.75, 148.75, 148.75);
     --minima-background-color: #181818;
     --minima-code-background-color: #222222;
     --minima-link-base-color: #79b8ff;
     --minima-link-visited-color: #79b8ff;
-    --minima-link-hover-color: #959595;
-    --minima-border-color-01: #363636;
-    --minima-border-color-02: #a6a6a6;
+    --minima-link-hover-color: rgb(148.75, 148.75, 148.75);
+    --minima-border-color-01: rgb(53.55, 53.55, 53.55);
+    --minima-border-color-02: rgb(165.75, 165.75, 165.75);
     --minima-border-color-03: #999999;
-    --minima-table-text-color: #959595;
-    --minima-table-zebra-color: #222222;
-    --minima-table-header-bg-color: #323232;
-    --minima-table-header-border: #4e4e4e;
-    --minima-table-border-color: #363636;
+    --minima-table-text-color: rgb(148.75, 148.75, 148.75);
+    --minima-table-zebra-color: rgb(34.2, 34.2, 34.2);
+    --minima-table-header-bg-color: rgb(49.5, 49.5, 49.5);
+    --minima-table-header-border: rgb(77.55, 77.55, 77.55);
+    --minima-table-border-color: rgb(53.55, 53.55, 53.55);
   }
   .highlight .err {
     color: #f07178;
     background-color: #e3d2d2;
   }
   .highlight .c, .highlight .cm, .highlight .cp, .highlight .c1, .highlight .cs {
-    color: #545454;
+    color: #8a8a8a;
   }
   .highlight .cs, .highlight .ge {
     font-style: italic;
@@ -208,7 +208,7 @@
     color: #9d99e6;
   }
   .highlight .nt {
-    color: #008080;
+    color: #ea57c5;
   }
   .highlight .o {
     color: #bcd890;
@@ -643,22 +643,22 @@ table td {
 
 .footer-col-1,
 .footer-col-2 {
-  width: calc(50% - (30px / 2));
+  width: calc(50% - 30px / 2);
 }
 
 .footer-col-3 {
-  width: calc(100% - (30px / 2));
+  width: calc(100% - 30px / 2);
 }
 
 @media screen and (min-width: 800px) {
   .footer-col-1 {
-    width: calc(35% - (30px / 2));
+    width: calc(35% - 30px / 2);
   }
   .footer-col-2 {
-    width: calc(20% - (30px / 2));
+    width: calc(20% - 30px / 2);
   }
   .footer-col-3 {
-    width: calc(45% - (30px / 2));
+    width: calc(45% - 30px / 2);
   }
 }
 @media screen and (min-width: 600px) {
@@ -666,7 +666,7 @@ table td {
     display: flex;
   }
   .footer-col {
-    width: calc(100% - (30px / 2));
+    width: calc(100% - 30px / 2);
     padding: 0 15px;
   }
   .footer-col:first-child {
@@ -837,7 +837,7 @@ table td {
  */
 @media screen and (min-width: 800px) {
   .one-half {
-    width: calc(50% - (30px / 2));
+    width: calc(50% - 30px / 2);
   }
 }
 .site-footer {
