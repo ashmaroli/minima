@@ -1,7 +1,7 @@
 @charset "UTF-8";
 .highlight .err {
-  color: #f07178;
-  background-color: #e3d2d2;
+  color: #e3d2d2;
+  background-color: #8c2121;
 }
 .highlight .cs, .highlight .cp, .highlight .cm, .highlight .c1, .highlight .c {
   color: #8a8a8a;
@@ -13,7 +13,7 @@
   color: #d85a5a;
 }
 .highlight .gd .x {
-  color: #44aaaa;
+  color: #d85a5a;
 }
 .highlight .gh {
   color: #999999;
@@ -22,7 +22,7 @@
   color: #4ec64e;
 }
 .highlight .gi .x {
-  color: #aaffaa;
+  color: #4ec64e;
 }
 .highlight .go {
   color: #888888;
@@ -70,16 +70,13 @@
   color: #9d99e6;
 }
 .highlight .nt {
-  color: #ea57c5;
+  color: #de3581;
 }
 .highlight .o {
   color: #bcd890;
 }
 .highlight .ow {
   color: #bcd890;
-}
-.highlight .w {
-  color: #eeffff;
 }
 .highlight .mo, .highlight .il, .highlight .mi, .highlight .mh, .highlight .mf, .highlight .m {
   color: #9d99e6;
@@ -93,6 +90,10 @@
 .highlight .ss {
   color: #3c90f5;
 }
+.highlight .w {
+  color: #eeffff;
+}
+
 html {
   font-size: 16px;
 }
@@ -334,7 +335,7 @@ table th, table td {
 }
 table th {
   background-color: rgb(49.5, 49.5, 49.5);
-  border: 1px solid rgb(77.55, 77.55, 77.55);
+  border: 1px solid rgb(62.25, 62.25, 62.25);
 }
 table td {
   border: 1px solid rgb(53.55, 53.55, 53.55);
