@@ -229,7 +229,7 @@ a:hover {
  */
 blockquote {
   color: #586e75;
-  border-left: 4px solid #2c4d56;
+  border-left: 4px solid #193843;
   padding-left: 15px;
   font-size: 1.05rem;
   font-style: italic;
@@ -269,7 +269,7 @@ pre > code {
 }
 
 div.highlight, figure.highlight {
-  border: 1px solid #2c4d56;
+  border: 1px solid #193843;
   border-radius: 3px;
 }
 div.highlight pre, figure.highlight pre {
@@ -285,7 +285,7 @@ figure.highlight > pre {
   padding: 5px 0 0;
 }
 figure.highlight td.gutter {
-  border-right: 1px solid #2c4d56;
+  border-right: 1px solid #193843;
 }
 figure.highlight td.code {
   width: 100%;
@@ -294,7 +294,7 @@ figure.highlight td.code {
 code.highlighter-rouge {
   padding: 1px 5px;
   font-size: 14px;
-  border: 1px solid #2c4d56;
+  border: 1px solid #193843;
   border-radius: 3px;
 }
 
@@ -385,7 +385,7 @@ table td {
   line-height: 54px;
   background-color: #002b36;
   border-top: 5px solid #839496;
-  border-bottom: 1px solid #2c4d56;
+  border-bottom: 1px solid #193843;
 }
 
 .site-title {
@@ -409,7 +409,7 @@ table td {
   top: 9px;
   right: 18px;
   background-color: #002b36;
-  border: 1px solid #2c4d56;
+  border: 1px solid #193843;
   border-radius: 5px;
   text-align: right;
 }
@@ -456,7 +456,7 @@ table td {
   padding-bottom: 5px;
   transition: width 1s;
   overflow: auto;
-  border-left-color: #2c4d56;
+  border-left-color: #193843;
 }
 .site-nav #nav-trigger:checked ~ .drawer-container .drawer {
   padding: 15px;
@@ -499,7 +499,7 @@ table td {
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid #2c4d56;
+  border-top: 1px solid #193843;
   padding: 30px 0;
 }
 
@@ -609,7 +609,7 @@ table td {
   margin-bottom: 30px;
   padding-bottom: 18px;
   text-align: center;
-  border-bottom: 1px solid #2c4d56;
+  border-bottom: 1px solid #193843;
 }
 
 .post-meta .bullet-divider {
@@ -693,7 +693,7 @@ table td {
 .social-media-list li a, .pagination li a {
   display: block;
   padding: 10px 12px;
-  border: 1px solid #2c4d56;
+  border: 1px solid #193843;
 }
 .social-media-list li a:hover, .pagination li a:hover {
   border-color: #586e75;
@@ -716,7 +716,7 @@ table td {
   border: 1px solid transparent;
 }
 .pagination li div.pager-edge {
-  color: #2c4d56;
+  color: #193843;
   border: 1px dashed;
 }
 
