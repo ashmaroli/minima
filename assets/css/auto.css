@@ -272,7 +272,8 @@ body {
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
-.highlight {
+div.highlight,
+figure.highlight {
   margin-bottom: 15px;
 }
 
@@ -372,8 +373,6 @@ blockquote i, blockquote em {
 pre,
 code {
   font-family: "Menlo", "Inconsolata", "Consolas", "Roboto Mono", "Ubuntu Mono", "Liberation Mono", "Courier New", monospace;
-  border: 1px solid var(--minima-border-color-01);
-  border-radius: 3px;
   background-color: var(--minima-code-background-color);
 }
 @media screen and (max-width: 600px) {
@@ -381,11 +380,6 @@ code {
   code {
     font-family: monospace;
   }
-}
-
-code {
-  padding: 1px 5px;
-  font-size: 14px;
 }
 
 pre {
@@ -398,17 +392,36 @@ pre {
 pre > code {
   display: inline-block;
   width: 100%;
-  padding-right: 0;
-  padding-left: 0;
+}
+
+div.highlight, figure.highlight {
+  border: 1px solid var(--minima-border-color-01);
+  border-radius: 3px;
+}
+div.highlight pre, figure.highlight pre {
+  margin: 0;
+}
+div.highlight table, div.highlight tbody, div.highlight th, div.highlight tr, div.highlight td, figure.highlight table, figure.highlight tbody, figure.highlight th, figure.highlight tr, figure.highlight td {
+  margin: 0;
+  padding: 0;
   border: 0;
 }
 
-.highlight {
-  border-radius: 3px;
-  background: var(--minima-code-background-color);
+figure.highlight > pre {
+  padding: 5px 0 0;
 }
-.highlighter-rouge .highlight {
-  background: var(--minima-code-background-color);
+figure.highlight td.gutter {
+  border-right: 1px solid var(--minima-border-color-01);
+}
+figure.highlight td.code {
+  width: 100%;
+}
+
+code.highlighter-rouge {
+  padding: 1px 5px;
+  font-size: 14px;
+  border: 1px solid var(--minima-border-color-01);
+  border-radius: 3px;
 }
 
 /**
