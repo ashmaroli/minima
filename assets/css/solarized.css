@@ -5,9 +5,9 @@
   --solarized-mono1: #93a1a1;
   --solarized-mono00: #657b83;
   --solarized-mono01: #586e75;
-  --solarized-mix1: rgb(200, 203.5, 194);
-  --solarized-mix2: rgb(69.5, 131, 170.5);
-  --solarized-mix3: rgb(245.5, 239, 220);
+  --solarized-mix1: #c8ccc2;
+  --solarized-mix2: #4683ab;
+  --solarized-mix3: #f6efdc;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,9 +17,9 @@
     --solarized-mono1: #586e75;
     --solarized-mono00: #839496;
     --solarized-mono01: #93a1a1;
-    --solarized-mix1: rgb(44, 76.5, 85.5);
-    --solarized-mix2: rgb(84.5, 143.5, 180);
-    --solarized-mix3: rgb(3.5, 48.5, 60);
+    --solarized-mix1: #2c4d56;
+    --solarized-mix2: #5590b4;
+    --solarized-mix3: #04313c;
   }
 }
 .highlight .err {
@@ -554,22 +554,22 @@ table td {
 
 .footer-col-1,
 .footer-col-2 {
-  width: calc(50% - 30px / 2);
+  width: calc(50% - (30px / 2));
 }
 
 .footer-col-3 {
-  width: calc(100% - 30px / 2);
+  width: calc(100% - (30px / 2));
 }
 
 @media screen and (min-width: 800px) {
   .footer-col-1 {
-    width: calc(35% - 30px / 2);
+    width: calc(35% - (30px / 2));
   }
   .footer-col-2 {
-    width: calc(20% - 30px / 2);
+    width: calc(20% - (30px / 2));
   }
   .footer-col-3 {
-    width: calc(45% - 30px / 2);
+    width: calc(45% - (30px / 2));
   }
 }
 @media screen and (min-width: 600px) {
@@ -577,7 +577,7 @@ table td {
     display: flex;
   }
   .footer-col {
-    width: calc(100% - 30px / 2);
+    width: calc(100% - (30px / 2));
     padding: 0 15px;
   }
   .footer-col:first-child {
@@ -748,7 +748,7 @@ table td {
  */
 @media screen and (min-width: 800px) {
   .one-half {
-    width: calc(50% - 30px / 2);
+    width: calc(50% - (30px / 2));
   }
 }
 .site-footer {

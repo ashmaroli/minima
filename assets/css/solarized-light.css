@@ -210,7 +210,7 @@ a {
   text-decoration: none;
 }
 a:visited {
-  color: rgb(69.5, 131, 170.5);
+  color: #4683ab;
 }
 a:hover {
   color: #657b83;
@@ -229,7 +229,7 @@ a:hover {
  */
 blockquote {
   color: #93a1a1;
-  border-left: 4px solid rgb(200, 203.5, 194);
+  border-left: 4px solid #c8ccc2;
   padding-left: 15px;
   font-size: 1.05rem;
   font-style: italic;
@@ -247,7 +247,7 @@ blockquote i, blockquote em {
 pre,
 code {
   font-family: "Menlo", "Inconsolata", "Consolas", "Roboto Mono", "Ubuntu Mono", "Liberation Mono", "Courier New", monospace;
-  background-color: rgb(245.5, 239, 220);
+  background-color: #f6efdc;
 }
 @media screen and (max-width: 600px) {
   pre,
@@ -269,7 +269,7 @@ pre > code {
 }
 
 div.highlight, figure.highlight {
-  border: 1px solid rgb(200, 203.5, 194);
+  border: 1px solid #c8ccc2;
   border-radius: 3px;
 }
 div.highlight pre, figure.highlight pre {
@@ -285,7 +285,7 @@ figure.highlight > pre {
   padding: 5px 0 0;
 }
 figure.highlight td.gutter {
-  border-right: 1px solid rgb(200, 203.5, 194);
+  border-right: 1px solid #c8ccc2;
 }
 figure.highlight td.code {
   width: 100%;
@@ -294,7 +294,7 @@ figure.highlight td.code {
 code.highlighter-rouge {
   padding: 1px 5px;
   font-size: 14px;
-  border: 1px solid rgb(200, 203.5, 194);
+  border: 1px solid #c8ccc2;
   border-radius: 3px;
 }
 
@@ -351,20 +351,20 @@ table {
   text-align: left;
   color: #657b83;
   border-collapse: collapse;
-  border: 1px solid rgb(200, 203.5, 194);
+  border: 1px solid #c8ccc2;
 }
 table tr:nth-child(even) {
-  background-color: rgb(245.5, 239, 220);
+  background-color: #f6efdc;
 }
 table th, table td {
   padding: 10px 15px;
 }
 table th {
   background-color: #eee8d5;
-  border: 1px solid rgb(200, 203.5, 194);
+  border: 1px solid #c8ccc2;
 }
 table td {
-  border: 1px solid rgb(200, 203.5, 194);
+  border: 1px solid #c8ccc2;
 }
 @media screen and (max-width: 800px) {
   table {
@@ -385,7 +385,7 @@ table td {
   line-height: 54px;
   background-color: #fdf6e3;
   border-top: 5px solid #657b83;
-  border-bottom: 1px solid rgb(200, 203.5, 194);
+  border-bottom: 1px solid #c8ccc2;
 }
 
 .site-title {
@@ -409,7 +409,7 @@ table td {
   top: 9px;
   right: 18px;
   background-color: #fdf6e3;
-  border: 1px solid rgb(200, 203.5, 194);
+  border: 1px solid #c8ccc2;
   border-radius: 5px;
   text-align: right;
 }
@@ -456,7 +456,7 @@ table td {
   padding-bottom: 5px;
   transition: width 1s;
   overflow: auto;
-  border-left-color: rgb(200, 203.5, 194);
+  border-left-color: #c8ccc2;
 }
 .site-nav #nav-trigger:checked ~ .drawer-container .drawer {
   padding: 15px;
@@ -499,7 +499,7 @@ table td {
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid rgb(200, 203.5, 194);
+  border-top: 1px solid #c8ccc2;
   padding: 30px 0;
 }
 
@@ -531,22 +531,22 @@ table td {
 
 .footer-col-1,
 .footer-col-2 {
-  width: calc(50% - 30px / 2);
+  width: calc(50% - (30px / 2));
 }
 
 .footer-col-3 {
-  width: calc(100% - 30px / 2);
+  width: calc(100% - (30px / 2));
 }
 
 @media screen and (min-width: 800px) {
   .footer-col-1 {
-    width: calc(35% - 30px / 2);
+    width: calc(35% - (30px / 2));
   }
   .footer-col-2 {
-    width: calc(20% - 30px / 2);
+    width: calc(20% - (30px / 2));
   }
   .footer-col-3 {
-    width: calc(45% - 30px / 2);
+    width: calc(45% - (30px / 2));
   }
 }
 @media screen and (min-width: 600px) {
@@ -554,7 +554,7 @@ table td {
     display: flex;
   }
   .footer-col {
-    width: calc(100% - 30px / 2);
+    width: calc(100% - (30px / 2));
     padding: 0 15px;
   }
   .footer-col:first-child {
@@ -609,7 +609,7 @@ table td {
   margin-bottom: 30px;
   padding-bottom: 18px;
   text-align: center;
-  border-bottom: 1px solid rgb(200, 203.5, 194);
+  border-bottom: 1px solid #c8ccc2;
 }
 
 .post-meta .bullet-divider {
@@ -693,7 +693,7 @@ table td {
 .social-media-list li a, .pagination li a {
   display: block;
   padding: 10px 12px;
-  border: 1px solid rgb(200, 203.5, 194);
+  border: 1px solid #c8ccc2;
 }
 .social-media-list li a:hover, .pagination li a:hover {
   border-color: #93a1a1;
@@ -716,7 +716,7 @@ table td {
   border: 1px solid transparent;
 }
 .pagination li div.pager-edge {
-  color: rgb(200, 203.5, 194);
+  color: #c8ccc2;
   border: 1px dashed;
 }
 
@@ -725,7 +725,7 @@ table td {
  */
 @media screen and (min-width: 800px) {
   .one-half {
-    width: calc(50% - 30px / 2);
+    width: calc(50% - (30px / 2));
   }
 }
 .site-footer {
