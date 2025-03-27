@@ -25,7 +25,7 @@
   color: #e3d2d2;
   background-color: #a61717;
 }
-.highlight .cs, .highlight .c1, .highlight .cp, .highlight .cm, .highlight .c {
+.highlight .lineno, .highlight .gl, .highlight .cs, .highlight .c1, .highlight .cp, .highlight .cm, .highlight .c {
   color: #9c9996;
 }
 .highlight .ge, .highlight .cs {
@@ -115,7 +115,6 @@
 .highlight .w {
   color: #bbbbbb;
 }
-
 @media (prefers-color-scheme: dark) {
   :root {
     --minima-brand-color: #999999;
@@ -142,7 +141,7 @@
     color: #e3d2d2;
     background-color: #8c2121;
   }
-  .highlight .c, .highlight .cm, .highlight .cp, .highlight .c1, .highlight .cs {
+  .highlight .c, .highlight .cm, .highlight .cp, .highlight .c1, .highlight .cs, .highlight .lineno, .highlight .gl {
     color: #8a8a8a;
   }
   .highlight .cs, .highlight .ge {

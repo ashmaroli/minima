@@ -3,7 +3,7 @@
   color: #e3d2d2;
   background-color: #8c2121;
 }
-.highlight .cs, .highlight .cp, .highlight .cm, .highlight .c1, .highlight .c {
+.highlight .lineno, .highlight .gl, .highlight .cs, .highlight .cp, .highlight .cm, .highlight .c1, .highlight .c {
   color: #8a8a8a;
 }
 .highlight .ge, .highlight .cs {
@@ -93,7 +93,6 @@
 .highlight .w {
   color: #eeffff;
 }
-
 html {
   font-size: 16px;
 }

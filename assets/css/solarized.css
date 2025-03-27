@@ -28,7 +28,7 @@
   color: #fefeec;
   background-color: #dc322f;
 }
-.highlight .cs, .highlight .cp, .highlight .cm, .highlight .c1, .highlight .c {
+.highlight .lineno, .highlight .gl, .highlight .cs, .highlight .cp, .highlight .cm, .highlight .c1, .highlight .c {
   color: var(--solarized-mono1);
 }
 .highlight .ge, .highlight .cs {
@@ -131,7 +131,6 @@
 .highlight .w {
   color: var(--solarized-mono1);
 }
-
 html {
   font-size: 16px;
 }
