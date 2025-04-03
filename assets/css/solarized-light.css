@@ -861,7 +861,7 @@ table td {
   transition: height 0.5s;
 }
 .site-footer + .sub-footer .sf-toggle-icon {
-  --icon-code: "⮝" ;
+  --icon-code: "↑" ;
 }
 .site-footer.sub-footer-hidden {
   padding-bottom: 60px;
@@ -872,7 +872,7 @@ table td {
   transition: height 0.5s;
 }
 .site-footer.sub-footer-hidden + .sub-footer .sf-toggle-icon {
-  --icon-code: "⮟" ;
+  --icon-code: "↓" ;
 }
 
 .sub-footer {
@@ -902,7 +902,7 @@ table td {
 .sub-footer #sf-toggle .sf-toggle-icon::before {
   position: absolute;
   top: -7px;
-  left: -15px;
+  left: -11px;
   content: var(--icon-code);
   transform: rotate(135deg);
 }
