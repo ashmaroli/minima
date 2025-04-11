@@ -9,8 +9,8 @@
   --minima-text-color: #414141;
   --minima-background-color: #fdfdfd;
   --minima-code-background-color: #f6f8fa;
-  --minima-link-base-color: #2a7ae2;
-  --minima-link-visited-color: #1756a9;
+  --minima-link-base-color: #1e69d8;
+  --minima-link-visited-color: #154895;
   --minima-link-hover-color: #414141;
   --minima-border-color-01: #e7e7e7;
   --minima-border-color-02: #dadada;
@@ -815,7 +815,7 @@ table td {
 .footer-col-wrapper,
 .social-links {
   font-size: 0.9375rem;
-  color: var(--minima-brand-color);
+  color: var(--minima-brand-color-dimmed);
 }
 
 .footer-col {

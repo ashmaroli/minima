@@ -609,7 +609,7 @@ table td {
 .footer-col-wrapper,
 .social-links {
   font-size: 0.9375rem;
-  color: var(--solarized-mono1);
+  color: var(--solarized-mono1-dimmed);
 }
 
 .footer-col {
