@@ -9,7 +9,7 @@ description: >
 
 minima:
   date_format: "%b %-d, %Y"
-  skin: dark
+  skin: solarized-light
   social_links:
     - { icon: "github", title: "Minima Theme repository at GitHub", url: "https://github.com/jekyll/minima" }
     - { icon: "x-twitter", title: "Jekyll profile at X (formerly Twitter)", url: "https://x.com/jekyllrb" }
