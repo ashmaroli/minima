@@ -9,6 +9,7 @@ description: >
 
 minima:
   date_format: "%b %-d, %Y"
+  skin: classic
   social_links:
     - { icon: "github", title: "Minima Theme repository at GitHub", url: "https://github.com/jekyll/minima" }
     - { icon: "x-twitter", title: "Jekyll profile at X (formerly Twitter)", url: "https://x.com/jekyllrb" }
@@ -16,7 +17,7 @@ minima:
 
 # Build settings
 baseurl: /minima
-remote_theme: jekyll/minima
+remote_theme: ashmaroli/minima@wcag-contrast
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
