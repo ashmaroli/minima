@@ -19,7 +19,7 @@ $sol-is-dark: false !default;
 $sol-base03:   #002b36;  // 15 -12 -12
 $sol-base02:   #073642;  // 20 -12 -12
 $sol-base01:   #586e75;  // 45 -07 -07
-$sol-base00:   #657b83;  // 50 -07 -07
+$sol-base00:   #576d75;  // original hex: #657b83 ; L*a*b: 50 -07 -07
 $sol-base0:    #839496;  // 60 -06 -03
 $sol-base1:    #93a1a1;  // 65 -05 -02
 $sol-base2:    #eee8d5;  // 92 -00  10
@@ -63,6 +63,8 @@ $sol-mix2:     $sol-light-mix2;
 $sol-mix3:     $sol-light-mix3;
 $sol-mix4:     $sol-light-mix4;
 
+$sol-mono1-dimmed: darken($sol-base1, 20%);
+
 @if $sol-is-dark {
   $sol-mono3:  $sol-base03;
   $sol-mono2:  $sol-base02;
@@ -73,6 +75,8 @@ $sol-mix4:     $sol-light-mix4;
   $sol-mix2:   $sol-dark-mix2;
   $sol-mix3:   $sol-dark-mix3;
   $sol-mix4:   $sol-dark-mix4;
+
+  $sol-mono1-dimmed: lighten($sol-base01, 16%);
 }
 
 @if $sol-is-auto {
@@ -86,6 +90,8 @@ $sol-mix4:     $sol-light-mix4;
     --solarized-mix2:   #{$sol-light-mix2};
     --solarized-mix3:   #{$sol-light-mix3};
     --solarized-mix4:   #{$sol-light-mix4};
+
+    --solarized-mono1-dimmed: #{sol-mono1-dimmed};
   }
 
   @media (prefers-color-scheme: dark) {
@@ -99,6 +105,8 @@ $sol-mix4:     $sol-light-mix4;
       --solarized-mix2:   #{$sol-dark-mix2};
       --solarized-mix3:   #{$sol-dark-mix3};
       --solarized-mix4:   #{$sol-dark-mix4};
+
+      --solarized-mono1-dimmed: #{sol-mono1-dimmed};
     }
   }
 
@@ -111,6 +119,8 @@ $sol-mix4:     $sol-light-mix4;
   $sol-mix2:   var(--solarized-mix2);
   $sol-mix3:   var(--solarized-mix3);
   $sol-mix4:   var(--solarized-mix4);
+
+  $sol-mono1-dimmed: var(--solarized-mono1-dimmed);
 }
 
 
@@ -119,6 +129,7 @@ $sol-mix4:     $sol-light-mix4;
 
 $brand-color:           $sol-mono1 !default;
 $brand-color-light:     $sol-mix4 !default;
+$brand-color-dimmed:    $sol-mono1-dimmed !default;
 $brand-color-dark:      $sol-mono00 !default;
 
 $site-title-color:      $sol-mono00 !default;
