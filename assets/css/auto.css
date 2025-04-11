@@ -2,6 +2,7 @@
 :root {
   --minima-brand-color: #818181;
   --minima-brand-color-light: #e7e7e7;
+  --minima-brand-color-dimmed: #656565;
   --minima-brand-color-dark: #414141;
   --minima-site-title-color: #414141;
   --minima-heading-color: #111111;
@@ -211,6 +212,7 @@
   :root {
     --minima-brand-color: #999999;
     --minima-brand-color-light: #a6a6a6;
+    --minima-brand-color-dimmed: #858585;
     --minima-brand-color-dark: #2b2b2b;
     --minima-site-title-color: #a6a6a6;
     --minima-heading-color: #bbbbbb;
@@ -883,7 +885,7 @@ table td {
 
 .post-meta {
   font-size: 14px;
-  color: var(--minima-brand-color);
+  color: var(--minima-brand-color-dimmed);
 }
 
 .post-link {

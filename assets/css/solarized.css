@@ -9,6 +9,7 @@
   --solarized-mix2: #4683ab;
   --solarized-mix3: #f6efdc;
   --solarized-mix4: #e8e3d4;
+  --solarized-mono1-dimmed: sol-mono1-dimmed;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,6 +23,7 @@
     --solarized-mix2: #5590b4;
     --solarized-mix3: #04313c;
     --solarized-mix4: #193843;
+    --solarized-mono1-dimmed: sol-mono1-dimmed;
   }
 }
 .highlight .err {
@@ -677,7 +679,7 @@ table td {
 
 .post-meta {
   font-size: 14px;
-  color: var(--solarized-mono1);
+  color: var(--solarized-mono1-dimmed);
 }
 
 .post-link {
