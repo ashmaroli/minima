@@ -3,10 +3,10 @@
   --solarized-mono3: #fdf6e3;
   --solarized-mono2: #eee8d5;
   --solarized-mono1: #93a1a1;
-  --solarized-mono00: #576d75;
+  --solarized-mono00: #4e626a;
   --solarized-mono01: #586e75;
   --solarized-mix1: #c8ccc2;
-  --solarized-mix2: #3f7ca4;
+  --solarized-mix2: #376a8b;
   --solarized-mix3: #f6efdc;
   --solarized-mix4: #e8e3d4;
   --solarized-mono1-dimmed: sol-mono1-dimmed;
@@ -20,7 +20,7 @@
     --solarized-mono00: #839496;
     --solarized-mono01: #93a1a1;
     --solarized-mix1: #2c4d56;
-    --solarized-mix2: #5590b4;
+    --solarized-mix2: #5283a1;
     --solarized-mix3: #04313c;
     --solarized-mix4: #193843;
     --solarized-mono1-dimmed: sol-mono1-dimmed;
@@ -109,7 +109,7 @@
   color: #cb4b16;
 }
 .highlight .bp {
-  color: #268bd2;
+  color: #2072ac;
 }
 .highlight .nc {
   color: #6c71c4;
@@ -118,7 +118,7 @@
   color: #6c71c4;
 }
 .highlight .nf {
-  color: #268bd2;
+  color: #2072ac;
 }
 .highlight .ni {
   color: #6c71c4;
@@ -310,7 +310,7 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #268bd2;
+  color: #2072ac;
   text-decoration: none;
 }
 a:visited {

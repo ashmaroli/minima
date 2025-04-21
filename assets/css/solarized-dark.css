@@ -82,7 +82,7 @@
   color: #cb4b16;
 }
 .highlight .bp {
-  color: #268bd2;
+  color: #2072ac;
 }
 .highlight .nc {
   color: #6c71c4;
@@ -91,7 +91,7 @@
   color: #6c71c4;
 }
 .highlight .nf {
-  color: #268bd2;
+  color: #2072ac;
 }
 .highlight .ni {
   color: #6c71c4;
@@ -283,11 +283,11 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #268bd2;
+  color: #2072ac;
   text-decoration: none;
 }
 a:visited {
-  color: #5590b4;
+  color: #5283a1;
 }
 a:hover {
   color: #839496;
