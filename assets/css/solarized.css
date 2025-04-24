@@ -12,6 +12,7 @@
   --solarized-mono1-dimmed: #606e6e;
   --solarized-link-color: #2072ac;
   --solarized-link-visited: #376a8b;
+  --solarized-mark-line-bg-color: #ffffcc;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -28,6 +29,7 @@
     --solarized-mono1-dimmed: #7f979f;
     --solarized-link-color: #469edd;
     --solarized-link-visited: #64a5ce;
+    --solarized-mark-line-bg-color: #153d41;
   }
 }
 .highlight .err {
@@ -214,6 +216,9 @@
 .highlight .lineno, .highlight .gl {
   color: var(--solarized-mono1);
 }
+.highlight .hll {
+  background-color: var(--solarized-mark-line-bg-color);
+}
 
 html {
   font-size: 16px;
@@ -389,8 +394,8 @@ div.highlight table, div.highlight tbody, div.highlight th, div.highlight tr, di
   border: 0;
 }
 
-figure.highlight > pre {
-  padding: 5px 0 0;
+figure.highlight table {
+  margin: -8px -12px -14px;
 }
 figure.highlight td.gutter {
   border-right: 1px solid var(--solarized-mix4);

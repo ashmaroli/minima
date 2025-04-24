@@ -184,6 +184,9 @@
 .highlight .lineno, .highlight .gl {
   color: #8a8a8a;
 }
+.highlight .hll {
+  background-color: #373730;
+}
 
 html {
   font-size: 16px;
@@ -359,8 +362,8 @@ div.highlight table, div.highlight tbody, div.highlight th, div.highlight tr, di
   border: 0;
 }
 
-figure.highlight > pre {
-  padding: 5px 0 0;
+figure.highlight table {
+  margin: -8px -12px -14px;
 }
 figure.highlight td.gutter {
   border-right: 1px solid #2b2b2b;
