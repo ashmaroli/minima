@@ -17,7 +17,7 @@ minima:
 
 # Build settings
 baseurl: /minima
-remote_theme: ashmaroli/minima@wcag-contrast
+remote_theme: ashmaroli/minima@mark-lines-support
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
