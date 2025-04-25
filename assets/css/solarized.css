@@ -29,7 +29,7 @@
     --solarized-mono1-dimmed: #7f979f;
     --solarized-link-color: #469edd;
     --solarized-link-visited: #64a5ce;
-    --solarized-mark-line-bg-color: #153d41;
+    --solarized-mark-line-bg-color: #164145;
   }
 }
 .highlight .err {
@@ -392,6 +392,9 @@ div.highlight table, div.highlight tbody, div.highlight th, div.highlight tr, di
   margin: 0;
   padding: 0;
   border: 0;
+}
+div.highlight .lineno, div.highlight .gl, figure.highlight .lineno, figure.highlight .gl {
+  text-align: right;
 }
 
 figure.highlight table {

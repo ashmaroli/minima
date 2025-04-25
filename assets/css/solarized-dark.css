@@ -184,7 +184,7 @@
   color: #586e75;
 }
 .highlight .hll {
-  background-color: #153d41;
+  background-color: #164145;
 }
 
 html {
@@ -359,6 +359,9 @@ div.highlight table, div.highlight tbody, div.highlight th, div.highlight tr, di
   margin: 0;
   padding: 0;
   border: 0;
+}
+div.highlight .lineno, div.highlight .gl, figure.highlight .lineno, figure.highlight .gl {
+  text-align: right;
 }
 
 figure.highlight table {

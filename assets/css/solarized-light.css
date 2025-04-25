@@ -360,6 +360,9 @@ div.highlight table, div.highlight tbody, div.highlight th, div.highlight tr, di
   padding: 0;
   border: 0;
 }
+div.highlight .lineno, div.highlight .gl, figure.highlight .lineno, figure.highlight .gl {
+  text-align: right;
+}
 
 figure.highlight table {
   margin: -8px -12px -14px;
